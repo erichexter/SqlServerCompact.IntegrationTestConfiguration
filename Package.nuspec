@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>SqlServerCompact.IntegrationTestConfiguration</id>
+    <version>1.0.0</version>
+    <authors>EricHexter</authors>
+    <owners>EricHexter</owners>
+    <projectUrl>https://github.com/erichexter/SqlServerCompact.IntegrationTestConfiguration</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>This adds the Microsoft SQL Server Compact Data Provider 4.0 configuraiton</description>
+    <releaseNotes>initial release</releaseNotes>
+    <copyright>Copyright 2013</copyright>
+    <dependencies>
+      <dependency id="Microsoft.SqlServer.Compact" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="Content\*.*" target="Content"/>
+  </files>
+</package>
